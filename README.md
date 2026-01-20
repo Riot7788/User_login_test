@@ -11,7 +11,17 @@
 - .env
 - Docker
 - README с инструкцией 
-
+## Настройка:
+1. Репозиторий: git clone https://github.com/Riot7788/User_login_test
+2. Создайте файл .env в корневой директории:
+```
+  BASE_URL=https://www.saucedemo.com/
+  STANDARD_USER=standard_user
+  STANDARD_PASSWORD=secret_sauce
+  LOCKED_USER=locked_out_user
+  PERFORMANCE_USER=performance_glitch_user
+  WRONG_PASSWORD=wrong_password
+```
 ## Установка:
 
 ```bash
